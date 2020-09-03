@@ -1,8 +1,5 @@
 #include "sum.h"
 int sum(int n){
-	int i = 0;
-	for (n; n > 0; n--){
-		i += n;
-	}
+	int i = ((n+1)*n)/2;
 	return i;
 }
